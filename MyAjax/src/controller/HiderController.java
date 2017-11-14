@@ -49,6 +49,7 @@ public class HiderController {
 	public String getDel(int id) {
 
 		int num = hs.getDel(id);
+		System.out.println("123123");
 		if (num > 0) {
 			return "true";
 		} else {
